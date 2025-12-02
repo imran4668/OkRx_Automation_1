@@ -1,0 +1,125 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "feature-to-automate-the-login-functionality;login-into-okrx-application-with-valid-emailid",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "login into okrx application with valid emailid",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 150742720
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "the user navigate to okrx sigin page",
+            "match": {
+              "location": "file:/Users/Imran/Desktop/OkRx_Automation_1/tests/Stepdef/signin.steps.js:7"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5091404,
+              "error_message": "Error: function uses multiple asynchronous interfaces: callback and promise\nto use the callback interface: do not return a promise\nto use the promise interface: remove the last argument to the function\n    at Object.run (/Users/Imran/Desktop/OkRx_Automation_1/node_modules/@cucumber/cucumber/lib/user_code_runner.js:35:24)\n    at /Users/Imran/Desktop/OkRx_Automation_1/node_modules/@cucumber/cucumber/lib/runtime/step_runner.js:64:114\n    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)\n    at runInTestCaseScope (/Users/Imran/Desktop/OkRx_Automation_1/node_modules/@cucumber/cucumber/lib/runtime/scope/test_case_scope.js:9:26)\n    at Object.run (/Users/Imran/Desktop/OkRx_Automation_1/node_modules/@cucumber/cucumber/lib/runtime/step_runner.js:64:63)\n    at async TestCaseRunner.invokeStep (/Users/Imran/Desktop/OkRx_Automation_1/node_modules/@cucumber/cucumber/lib/runtime/test_case_runner.js:127:16)\n    at async TestCaseRunner.runStep (/Users/Imran/Desktop/OkRx_Automation_1/node_modules/@cucumber/cucumber/lib/runtime/test_case_runner.js:299:26)\n    at async /Users/Imran/Desktop/OkRx_Automation_1/node_modules/@cucumber/cucumber/lib/runtime/test_case_runner.js:212:44\n    at async TestCaseRunner.aroundTestStep (/Users/Imran/Desktop/OkRx_Automation_1/node_modules/@cucumber/cucumber/lib/runtime/test_case_runner.js:152:32)\n    at async TestCaseRunner.runAttempt (/Users/Imran/Desktop/OkRx_Automation_1/node_modules/@cucumber/cucumber/lib/runtime/test_case_runner.js:194:13)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "the user enter the valid emailid",
+            "match": {
+              "location": "file:/Users/Imran/Desktop/OkRx_Automation_1/tests/Stepdef/signin.steps.js:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user user click continue button",
+            "match": {
+              "location": "file:/Users/Imran/Desktop/OkRx_Automation_1/tests/Stepdef/signin.steps.js:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the user validate the already signin context is coming or not",
+            "match": {
+              "location": "file:/Users/Imran/Desktop/OkRx_Automation_1/tests/Stepdef/signin.steps.js:24"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user enter the valid password",
+            "match": {
+              "location": "file:/Users/Imran/Desktop/OkRx_Automation_1/tests/Stepdef/signin.steps.js:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user user click the signin button",
+            "match": {
+              "location": "file:/Users/Imran/Desktop/OkRx_Automation_1/tests/Stepdef/signin.steps.js:33"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 84292977
+            },
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAAAyAAAAJYCAIAAAAVFBUnAAAKW0lEQVR4nOzWMQEAAAjAIA/7V9YSOyEFe3cDAEBnBwCAlGABAMQECwAgJlgAADHBAgCICRYAQEywAABiggUAEBMsAICYYAEAxAQLACAmWAAAMcECAIgJFgBATLAAAGKCBQAQEywAgJhgAQDEBAsAICZYAAAxwQIAiAkWAEBMsAAAYoIFABATLACAmGABAMQECwAgJlgAADHBAgCICRYAQEywAABiggUAEBMsAICYYAEAxAQLACAmWAAAMcECAIgJFgBATLAAAGKCBQAQEywAgJhgAQDEBAsAICZYAAAxwQIAiAkWAEBMsAAAYoIFABATLACAmGABAMQECwAgJlgAADHBAgCICRYAQEywAABiggUAEBMsAICYYAEAxAQLACAmWAAAMcECAIgJFgBATLAAAGKCBQAQEywAgJhgAQDEBAsAICZYAAAxwQIAiAkWAEBMsAAAYoIFABATLACAmGABAMQECwAgJlgAADHBAgCICRYAQEywAABiggUAEBMsAICYYAEAxAQLACAmWAAAMcECAIgJFgBATLAAAGKCBQAQEywAgJhgAQDEBAsAICZYAAAxwQIAiAkWAEBMsAAAYoIFABATLACAmGABAMQECwAgJlgAADHBAgCICRYAQEywAABiggUAEBMsAICYYAEAxAQLACAmWAAAMcECAIgJFgBATLAAAGKCBQAQEywAgJhgAQDEBAsAICZYAAAxwQIAiAkWAEBMsAAAYoIFABATLACAmGABAMQECwAgJlgAADHBAgCICRYAQEywAABiggUAEBMsAICYYAEAxAQLACAmWAAAMcECAIgJFgBATLAAAGKCBQAQEywAgJhgAQDEBAsAICZYAAAxwQIAiAkWAEBMsAAAYoIFABATLACAmGABAMQECwAgJlgAADHBAgCICRYAQEywAABiggUAEBMsAICYYAEAxAQLACAmWAAAMcECAIgJFgBATLAAAGKCBQAQEywAgJhgAQDEBAsAICZYAAAxwQIAiAkWAEBMsAAAYoIFABATLACAmGABAMQECwAgJlgAADHBAgCICRYAQEywAABiggUAEBMsAICYYAEAxAQLACAmWAAAMcECAIgJFgBATLAAAGKCBQAQEywAgJhgAQDEBAsAICZYAAAxwQIAiAkWAEBMsAAAYoIFABATLACAmGABAMQECwAgJlgAADHBAgCICRYAQEywAABiggUAEBMsAICYYAEAxAQLACAmWAAAMcECAIgJFgBATLAAAGKCBQAQEywAgJhgAQDEBAsAICZYAAAxwQIAiAkWAEBMsAAAYoIFABATLACAmGABAMQECwAgJlgAADHBAgCICRYAQEywAABiggUAEBMsAICYYAEAxAQLACAmWAAAMcECAIgJFgBATLAAAGKCBQAQEywAgJhgAQDEBAsAICZYAAAxwQIAiAkWAEBMsAAAYoIFABATLACAmGABAMQECwAgJlgAADHBAgCICRYAQEywAABiggUAEBMsAICYYAEAxAQLACAmWAAAMcECAIgJFgBATLAAAGKCBQAQEywAgJhgAQDEBAsAICZYAAAxwQIAiAkWAEBMsAAAYoIFABATLACAmGABAMQECwAgJlgAADHBAgCICRYAQEywAABiggUAEBMsAICYYAEAxAQLACAmWAAAMcECAIgJFgBATLAAAGKCBQAQEywAgJhgAQDEBAsAICZYAAAxwQIAiAkWAEBMsAAAYoIFABATLACAmGABAMQECwAgJlgAADHBAgCICRYAQEywAABiggUAEBMsAICYYAEAxAQLACAmWAAAMcECAIgJFgBATLAAAGKCBQAQEywAgJhgAQDEBAsAICZYAAAxwQIAiAkWAEBMsAAAYoIFABATLACAmGABAMQECwAgJlgAADHBAgCICRYAQEywAABiggUAEBMsAICYYAEAxAQLACAmWAAAMcECAIgJFgBATLAAAGKCBQAQEywAgJhgAQDEBAsAICZYAAAxwQIAiAkWAEBMsAAAYoIFABATLACAmGABAMQECwAgJlgAADHBAgCICRYAQEywAABiggUAEBMsAICYYAEAxAQLACAmWAAAMcECAIgJFgBATLAAAGKCBQAQEywAgJhgAQDEBAsAICZYAAAxwQIAiAkWAEBMsAAAYoIFABATLACAmGABAMQECwAgJlgAADHBAgCICRYAQEywAABiggUAEBMsAICYYAEAxAQLACAmWAAAMcECAIgJFgBATLAAAGKCBQAQEywAgJhgAQDEBAsAICZYAAAxwQIAiAkWAEBMsAAAYoIFABATLACAmGABAMQECwAgJlgAADHBAgCICRYAQEywAABiggUAEBMsAICYYAEAxAQLACAmWAAAMcECAIgJFgBATLAAAGKCBQAQEywAgJhgAQDEBAsAICZYAAAxwQIAiAkWAEBMsAAAYoIFABATLGAAaAkWAEBMsAAAYoIFABATLACAmGABAMQECwAgJlgAADHBAgCICRYAQEywAABiggUAEBMsAICYYAEAxAQLACAmWAAAMcECAIgJFgBATLAAAGKCBQAQEywAgJhgAQDEBAsAICZYAAAxwQIAiAkWAEBMsAAAYoIFABATLACAmGABAMQECwAgJlgAADHBAgCICRYAQEywAABiggUAEBMsAICYYAEAxAQLACAmWAAAMcECAIgJFgBATLAAAGKCBQAQEywAgJhgAQDEBAsAICZYAAAxwQIAiAkWAEBMsAAAYoIFABATLACAmGABAMQECwAgJlgAADHBAgCICRYAQEywAABiggUAEBMsAICYYAEAxAQLACAmWAAAMcECAIgJFgBATLAAAGKCBQAQEywAgJhgAQDEBAsAICZYAAAxwQIAiAkWAEBMsAAAYoIFABATLACAmGABAMQECwAgJlgAADHBAgCICRYAQEywAABiggUAEBMsAICYYAEAxAQLACAmWAAAMcECAIgJFgBATLAAAGKCBQAQEywAgJhgAQDEBAsAICZYAAAxwQIAiAkWAEBMsAAAYoIFABATLACAmGABAMQECwAgJlgAADHBAgCICRYAQEywAABiggUAEBMsAICYYAEAxAQLACAmWAAAMcECAIgJFgBATLAAAGKCBQAQEywAgJhgAQDEBAsAICZYAAAxwQIAiAkWAEBMsAAAYoIFABATLACAmGABAMQECwAgJlgAADHBAgCICRYAQEywAABiggUAEBMsAICYYAEAxAQLACAmWAAAMcECAIgJFgBATLAAAGKCBQAQEywAgJhgAQDEBAsAICZYAAAxwQIAiAkWAEBMsAAAYoIFABATLACAmGABAMQECwAgJlgAADHBAgCICRYAQEywAABiggUAEBMsAICYYAEAxAQLACAmWAAAMcECAIgJFgBATLAAAGKCBQAQEywAgJhgAQDEBAsAICZYAAAxwQIAiAkWAEBMsAAAYoIFABATLACAmGABAMQECwAgJlgAADHBAgCICRYAQEywAABiggUAEBMsAICYYAEAxAQLACAmWAAAMcECAIgJFgBATLAAAGKCBQAQEywAgJhgAQDEBAsAIPYAAAD//xFwqYQAAAAGSURBVAMAFeAMXlghL5wAAAAASUVORK5CYII=",
+                "mime_type": "image/png"
+              }
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "feature-to-automate-the-login-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "feature to automate the login functionality",
+    "tags": [],
+    "uri": "tests/Feature/signin.feature"
+  }
+]

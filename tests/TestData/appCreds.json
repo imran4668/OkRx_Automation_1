@@ -1,0 +1,6 @@
+{
+    "base_url":"https://okrx.b2clogin.com/okrx.onmicrosoft.com/b2c_1a_signup_signin_hrd/oauth2/v2.0/authorize?client_id=04852cd3-9852-4196-b7a1-1e828ebc5b72&redirect_uri=https%3A%2F%2Fformsstage.okrxapp.ca%2Fsignin-oidc&response_type=code&scope=openid%20profile%20offline_access%20https%3A%2F%2FOkRx.onmicrosoft.com%2F04852cd3-9852-4196-b7a1-1e828ebc5b72%2FForms.Api.Access&response_mode=form_post&nonce=639002162764550871.ZTBkMjIzM2EtMWIyMC00OGI4LTllYWItMDAzZTQyYjAxNjRhZmUyOTA3YTItOGQ1ZS00YzU3LTlmMGYtZDYzZjAwZTkzZGNh&client_info=1&x-client-brkrver=IDWeb.1.0.0.0&state=CfDJ8DB2gT7FG8RLuzfTzJsXi-2AaJZV8QLtov7byKw6dII2uLV3yrfsU0RyUun6KHXyoFne8UPtAkIBhBhlpjnmgUyijXAtmYbTiWurH6Qz4dWrAi-QvpIwC3h2uoCPzctQlACogZSDIb7xDFmTjEv3tQepoAa4_8wY6m2p9wz4kmIctOB1ENkulzmlpZlAdSmCkNTZiqmRUDK3o_uguO5YEcpCmo5JItgl_aZdi5kSsy7fKJ7cdJQlF8cy4RID7D1bjV6bhgy-VQB0hEng-wcbOT487WVff7Eiqorpsmzh6FZ5&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.5.0.0",
+    "username":"mohammed.riyas@okrx.ca",
+    "password":"Password1!"
+
+}

@@ -1,0 +1,23 @@
+{
+  "default": {
+    "paths": ["tests/Feature"],
+    "publishQuiet": true,
+    "dryRun": false,
+    "formatOptions": {
+      "snippetInterface": "async-await"
+    },
+    "require": [
+      "tests/Stepdef/*.steps.js",
+      "tests/Hooks/*.js"
+    ],
+    "parallel": 1,
+    "retry": 1,
+    "retryTagFilter": "@failed",
+    "format": [
+      "json:reports/cucumber_report.json",
+      "progress",
+      "html:reports/cucumber_report.html"
+    ],
+    "tags": ""
+  }
+}
