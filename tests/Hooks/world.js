@@ -1,24 +1,16 @@
-// tests/Support/world.js
-import { setWorldConstructor, World } from '@cucumber/cucumber';
+// tests/Hooks/world.js
+import { setWorldConstructor, World, setDefaultTimeout } from '@cucumber/cucumber';
+
+setDefaultTimeout(60 * 1000);
 
 export class CustomWorld extends World {
   constructor(options) {
     super(options);
 
-    /** Playwright browser instance */
-    this.browser = undefined;
-
-    /** Playwright browser context */
-    this.context = undefined;
-
-    /** Playwright page */
-    this.page = undefined;
-
-    /** Store scenario result */
-    this.result = undefined;
-
-    /** Store scenario pickle */
-    this.pickle = undefined;
+    // We only store Playwright objects because steps need them
+    this.browser = null;
+    this.context = null;
+    this.page = null;
   }
 }
 
