@@ -4,7 +4,11 @@
     "publishQuiet": true,
     "dryRun": false,
     "formatOptions": {
-      "snippetInterface": "async-await"
+      "snippetInterface": "async-await",
+      "resultsDir": "allure-results"
+    },
+    "worldParameters": {
+      "storageState": "auth.json"
     },
     "require": [
       "tests/Stepdef/*.steps.js",
@@ -16,7 +20,8 @@
     "format": [
       "json:reports/cucumber_report.json",
       "progress",
-      "html:reports/cucumber_report.html"
+      "html:reports/cucumber_report.html",
+      "allure-cucumberjs/reporter"
     ],
     "tags": ""
   }

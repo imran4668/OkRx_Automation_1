@@ -58,7 +58,7 @@ class signin{
         // await this.page.pause();
         await expect.soft(this.page).toHaveTitle("OkRx Forms Portal");
         await this.page.waitForLoadState("networkidle");
-        await this.page.waitForTimeout(5000)
+        await this.page.waitForTimeout(50000)
         
     }
 
