@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 995369698
+              "duration": 778145127
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3140453069
+              "duration": 3433983270
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 922082079
+              "duration": 1912219838
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2818572674
+              "duration": 2021306348
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1869625289
+              "duration": 1870186248
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 38943385
+              "duration": 16773724
             }
           },
           {
@@ -92,8 +92,8 @@
             },
             "result": {
               "status": "failed",
-              "duration": 5091752360,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"OkRx Forms Portal\"\u001b[39m\nReceived: \u001b[31m\"Sign up or sign in\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"to.have.title\" with timeout 5000ms\u001b[22m\n\u001b[2m    5 × unexpected value \"Sign up or sign in\"\u001b[22m\n\u001b[2m    - waiting for\" https://okrx.b2clogin.com/okrx.onmicrosoft.com/B2C_1A_Signup_Signin_HRD/api/CombinedSigninAndSignup/confirmed?rememberMe=false&csrf_token=UHVDUWJzWXArTzdOb1JtQ3B5bHhXeHBLc2NUT2xzRnhDU0Z2RStqVGpaaStjN…\" navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://okrx.b2clogin.com/okrx.onmicrosoft.com/B2C_1A_Signup_Signin_HRD/api/CombinedSigninAndSignup/confirmed?rememberMe=false&csrf_token=UHVDUWJzWXArTzdOb1JtQ3B5bHhXeHBLc2NUT2xzRnhDU0Z2RStqVGpaaStjN…\"\u001b[22m\n\n    at Proxy.<anonymous> (/Users/Imran/Desktop/OkRx_Automation_1/node_modules/playwright/lib/matchers/expect.js:224:24)\n    at signin.clickSignInButton (file:///Users/Imran/Desktop/OkRx_Automation_1/tests/Pages/signinPage.js:59:38)\n    at async CustomWorld.<anonymous> (file:///Users/Imran/Desktop/OkRx_Automation_1/tests/Stepdef/signin.steps.js:37:3)"
+              "duration": 5089528330,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"OkRx Forms Portal\"\u001b[39m\nReceived: \u001b[31m\"Sign up or sign in\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"to.have.title\" with timeout 5000ms\u001b[22m\n\u001b[2m    5 × unexpected value \"Sign up or sign in\"\u001b[22m\n\u001b[2m    - waiting for\" https://okrx.b2clogin.com/okrx.onmicrosoft.com/B2C_1A_Signup_Signin_HRD/api/CombinedSigninAndSignup/confirmed?rememberMe=false&csrf_token=SHROMHlsdjNOR2owT1QxZDcydkhNaWhvMW9CNE9wT2lMNldXV0srRFc4TU5TZ…\" navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://okrx.b2clogin.com/okrx.onmicrosoft.com/B2C_1A_Signup_Signin_HRD/api/CombinedSigninAndSignup/confirmed?rememberMe=false&csrf_token=SHROMHlsdjNOR2owT1QxZDcydkhNaWhvMW9CNE9wT2lMNldXV0srRFc4TU5TZ…\"\u001b[22m\n\u001b[2m    - waiting for\" https://okrx.cloudflareaccess.com/cdn-cgi/access/callback?code=1.ASwA37t9ghm0H0moAm7Qoj0l9mmZZj1NjbxAlvdPoGIzvNEBAAAsAA.AgABBAIAAABlMNzVhAPUTrARzfQjWPtKAwDs_wUA9P8NbHeZEDZeU0ov4l-IhCeHVyP5N28zIdVOeaQ…\" navigation to finish...\u001b[22m\n\n    at Proxy.<anonymous> (/Users/Imran/Desktop/OkRx_Automation_1/node_modules/playwright/lib/matchers/expect.js:224:24)\n    at signin.clickSignInButton (file:///Users/Imran/Desktop/OkRx_Automation_1/tests/Pages/signinPage.js:59:38)\n    at async CustomWorld.<anonymous> (file:///Users/Imran/Desktop/OkRx_Automation_1/tests/Stepdef/signin.steps.js:37:3)"
             }
           },
           {
@@ -101,7 +101,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8447252021
+              "duration": 8070609141
             },
             "embeddings": [
               {
@@ -109,6 +109,96 @@
                 "mime_type": "image/png"
               }
             ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "feature-to-automate-the-login-functionality;login-into-okrx-application-with-valid-emailid-1",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "login into okrx application with valid emailid 1",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 556688842
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the user navigate to okrx sigin page1",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user enter the valid emailid 1",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user user click continue button",
+            "match": {
+              "location": "file:/Users/Imran/Desktop/OkRx_Automation_1/tests/Stepdef/signin.steps.js:21"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the user validate the already signin context is coming or not1",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the user enter the valid password 1",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "the user user click the signin button1",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 46129004
+            }
           }
         ],
         "tags": [],
