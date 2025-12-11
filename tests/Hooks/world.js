@@ -11,6 +11,7 @@ export class CustomWorld extends World {
     this.browser = null;
     this.context = null;
     this.page = null;
+    this.newTab=null;
   }
 }
 

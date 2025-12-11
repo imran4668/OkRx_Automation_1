@@ -8,7 +8,6 @@ dotenv.config();
 let browser;
 
 // ----------------- BeforeAll -----------------
-// Launches the browser once before all tests
 BeforeAll(async function () {
   const browserType = process.env.BROWSER || 'chromium';
   const launchOptions = {
@@ -32,20 +31,29 @@ BeforeAll(async function () {
 
 // ----------------- Before Each Scenario -----------------
 Before(async function ({ pickle }) {
-  // 1. Assign browser to World so it's accessible in steps (optional but recommended)
+  // 1. Assign browser to World
   this.browser = browser;
 
-  // 2. Define Context Options
+  // 2. Determine Storage State from tags + world parameters
+  const tags = pickle.tags.map(tag => tag.name);
+  let storageStatePath;
+
+  // Ensure 'this.parameters' exists before accessing it to avoid crashes
+//   if (tags.includes('@loggedIn') && this.parameters) {
+//     storageStatePath = this.parameters.storageState; 
+//   }
+
+
+storageStatePath = this.parameters.storageState; 
+
+
+  // 3. Define Context Options
   const contextOptions = {
+    storageState: storageStatePath,
     viewport: null,
     acceptDownloads: true,
     recordVideo: process.env.RECORD_VIDEO === 'true' ? { dir: 'reports/videos/' } : undefined,
   };
-
-//   // 3. Handle Storage State (Login session)
-//   if (pickle.tags.some(tag => tag.name === '@loggedIn')) {
-//     contextOptions.storageState = 'auth.json';
-//   }
 
   // 4. Create Context & Page
   this.context = await browser.newContext(contextOptions);
@@ -58,8 +66,6 @@ Before(async function ({ pickle }) {
 
 // ----------------- After Each Scenario -----------------
 After(async function ({ result, pickle }) {
-  // 1. Screenshot on Failure
-  // We use 'result' and 'pickle' here directly without storing them in 'this'
   if (result?.status === Status.FAILED) {
     const safeName = pickle.name.replace(/[^a-zA-Z0-9]/g, '_');
 
@@ -68,9 +74,9 @@ After(async function ({ result, pickle }) {
         path: `reports/screenshots/${safeName}.png`,
         fullPage: true,
       });
-      // Attach screenshot to the report
+      
       if (this.attach) {
-        await this.attach(screenshot, 'image/png');
+        this.attach(screenshot, 'image/png');
       }
     }
 
@@ -79,7 +85,7 @@ After(async function ({ result, pickle }) {
       const tracePath = `reports/traces/${safeName}-trace.zip`;
       await this.context.tracing.stop({ path: tracePath });
       console.log(`Trace saved to: ${tracePath}`);
-    }
+    } 
   } else {
     // Stop tracing without saving if passed
     if (this.context) {
@@ -87,7 +93,6 @@ After(async function ({ result, pickle }) {
     }
   }
 
-  // 2. Cleanup
   if (this.page) await this.page.close();
   if (this.context) await this.context.close();
 });

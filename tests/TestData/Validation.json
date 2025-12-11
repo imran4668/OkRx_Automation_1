@@ -1,3 +1,5 @@
 {
-    "singinAlreadyContext":"Do you already have an OkRx account? Sign in below"
+    "singinAlreadyContext":"Do you already have an OkRx account? Sign in below",
+    "errorMessageForInvalidEmailFormate":"Please enter a valid email address.",
+    "errorMessageForInvalidEmailId":"The email or password provided are invalid."
 }
